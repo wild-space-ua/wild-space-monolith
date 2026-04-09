@@ -41,17 +41,17 @@
 
 ## Ліцензія
 
-See the REUSE headers for detailed licensing information for each file for the specific licenses contributions are made under. The work as a whole is licensed under GNU Affero General Public License version 3.0.
+Перегляньте хедери REUSE для отримання детальної інформації про ліцензії для кожного файлу та конкретні ліцензії, на умовах яких надаються матеріали. Загалом, репозиторій ліцензовано за GNU Affero General Public License version 3.0.
 
-By default, original code contributed to the Monolith codebase after 04d8ce483f638320d1b85a7aaacdf01442757363 is under Mozilla Public License version 2.0 with Exhibit B removed. See `LICENSE-MPL.txt`.
+За замовчуванням оригінальний код, доданий до кодової бази Monolith після коміту 04d8ce483f638320d1b85a7aaacdf01442757363, розповсюджується за ліцензією Mozilla Public License версії 2.0 без Додатка B. Див. файл `LICENSE-MPL.txt`.
 
-Content contributed to this repository after commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the GNU Affero General Public License version 3.0, unless otherwise stated. See `LICENSE-AGPLv3.txt`.
+Матеріали, додані до цього репозиторію після коміту 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0, ліцензовані за GNU Affero General Public License version 3.0, якщо не вказано інше. Див. файл `LICENSE-AGPLv3.txt`.
 
-Content contributed to this repository before commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the MIT license, unless otherwise stated. See `LICENSE-MIT.txt`.
+Матеріали, додані до цього репозиторію до коміту 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0, розповсюджуються за ліцензією MIT, якщо не вказано інше. Див. файл `LICENSE-MIT.txt`.
 
 
-[2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) was pushed on July 1, 2024 at 16:04 UTC
+[2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) було опубліковано 1 липня 2024 року о 16:04 за UTC
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Більшість матеріалів ліцензовано за ліцензією [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), якщо не вказано інше. Інформація про ліцензію та авторські права на матеріали міститься у файлі метаданих. [Приклад](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Зверніть увагу, що деякі матеріали ліцензовані за некомерційною ліцензією [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) або аналогічними некомерційними ліцензіями, і їх необхідно буде видалити, якщо ви бажаєте використовувати цей проєкт у комерційних цілях.
