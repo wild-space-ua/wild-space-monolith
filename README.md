@@ -1,27 +1,23 @@
 <p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Monolith-Station/Monolith/89d435f0d2c54c4b0e6c3b1bf4493c9c908a6ac7/Resources/Textures/_Mono/Logo/logo.png?raw=true" /></p>
 
-Monolith is a fork of [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14) that runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
+Дикий Космос це форк [Monolith Station](https://github.com/Monolith-Station/Monolith) який використовує двигун [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написаний на C#.
 
-This is the primary repo for Monolith.
+<!-- ## Links
 
-If you want to host or create content for Monolith, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+//[Discord](https://discord.gg/mxY4h2JuUw) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) -->
 
-## Links
+## Долучитися до розробки
 
-[Discord](https://discord.gg/mxY4h2JuUw) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
+Ми з радістю готові приймати нові правки до коду від будь-кого. Приєднайтеся до нас у Діскорді, якщо ви хочете отримати допомоги. Не бійтеся питати про допомогу!
 
-## Contributing
+Також, ми приймаємо переклади гри у наш форк, і наразі працюємо над тим аби зробити репозиторій доступний на Weblate.
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. Don't be afraid to ask for help either!
+## Збірка
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+Загальну інформацію щодо налаштування середовища розробки дивіться у [посібнику Space Wizards](https://docs.spacestation14.com/en/general-development/setup/setting-up-a-development-environment.html), але майте на увазі, що Einstein Engine відрізняється від Wizden, і багато рекомендацій можуть бути неактуальними.
+Щоб полегшити вам роботу, ми пропонуємо кілька скриптів, наведених нижче.
 
-## Building
-
-Refer to [the Space Wizards' guide](https://docs.spacestation14.com/en/general-development/setup/setting-up-a-development-environment.html) on setting up a development environment for general information, but keep in mind that Einstein Engines is not the same and many things may not apply.
-We provide some scripts shown below to make the job easier.
-
-### Build dependencies
+### Залежності збірки
 
 > - Git
 > - .NET SDK 10.0
@@ -29,25 +25,21 @@ We provide some scripts shown below to make the job easier.
 
 ### Windows
 
-> 1. Clone this repository
-> 2. Run `Scripts/bat/updateEngine.bat` in a terminal or in file explorer to download the engine
-> 3. Run `Scripts/bat/buildAllDebug.bat` after making any changes to the source
-> 4. Run `Scripts/bat/runQuickAll.bat` to launch the client and the server
+> 1. Клонуйте цей репозиторій
+> 2. Запустіть `Scripts/bat/updateEngine.bat` у терміналі, аби завантажити двигун
+> 3. Запустіть `Scripts/bat/buildAllDebug.bat` після внесення будь-яких змін у код
+> 4. Запустіть `Scripts/bat/runQuickAll.bat` аби запустити клієнт та сервер
 > 5. Connect to localhost in the client and play
 
 ### Linux
 
-> 1. Clone this repository
-> 2. Run `Scripts/sh/updateEngine.sh` in a terminal to download the engine
-> 3. Run `Scripts/sh/buildAllDebug.sh` after making any changes to the source
-> 4. Run `Scripts/sh/runQuickAll.sh` to launch the client and the server
-> 5. Connect to localhost in the client and play
+> 1. Клонуйте цей репозитоій
+> 2. Запустіть `Scripts/sh/updateEngine.sh` у терміналі, аби завантажити двигун
+> 3. Запустіть `Scripts/sh/buildAllDebug.sh` після внесення будь-яких змін у код
+> 4. Запустіть `Scripts/sh/runQuickAll.sh` аби запустити клієнт та сервер
+> 5. У клієнті, підключайтеся до localhost та грайте
 
-### MacOS
-
-> I don't know anybody using MacOS to test this, but it's probably roughly the same steps as Linux
-
-## License
+## Ліцензія
 
 See the REUSE headers for detailed licensing information for each file for the specific licenses contributions are made under. The work as a whole is licensed under GNU Affero General Public License version 3.0.
 
