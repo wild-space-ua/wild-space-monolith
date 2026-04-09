@@ -1,45 +1,61 @@
-﻿# A quick summary of how to mark code files in this repository
+﻿# Стандарти кодування та заголовки файлів Wild Space
 
 ## CSharp
 
-All C# code contributed after 1 July, 2024 23:00:00 UTC should contain the following header:
+### Нові файли
 
+Будь-які нові файли `.cs` створенні під єгідою Wild Space, повинні містити наступний заголовок:
 ```csharp
 /*
- * New Frontiers - This file is licensed under AGPLv3
- * Copyright (c) [Year] New Frontiers Contributors
- * See AGPLv3.txt for details.
+ * Wild Space - Цей файл ліцензовано на умовах AGPLv3
+ * Copyright (c) [Year] Wild Space Contributors
+ * На основі Monolith та New Frontiers
+ * Дивіться AGPLv3.txt для деталей.
  */
 ```
 
-For any changes within MIT licensed(upstream) files, the following marker should be used at the start of the modification
+### Модифікація файлів Wizden (MIT)
+
+При зміні файлів, які походять безпосередньо з Wizden та мають ліцензію MIT використовуйте цей маркер для виділення ваших змін:
 
 ```csharp
-/* New Frontiers - [Title of changes] - [Description of changes]
-This code is licensed under AGPLv3. See AGPLv3.txt */
-yourCodeHere();
-// End of modified code
+/* Wild Space - [Назва змін] - [Опис змін]
+   Цей код ліцензовано на умовах AGPLv3. Дивіться AGPLv3.txt */
+вашКодТут();
+// Кінець модифікації Wild Space
+```
+
+### Модифікація файлів New Frontiers/Monolith (AGPLv3)
+
+Якщо ви змінюєте файл, який був створений командою New Frontiers або Monolith, то не видаляйте їх оригінальний заголовок. Додайте свій маркер нижче, або безпосередньо в місці модифікації
+
+```csharp
+/* Wild Space - [Назва зміни]
+   Модифіковано на основі оригінального коду New Frontiers.
+   Ліцензовано під AGPLv3. */
+вашКодТут();
+// Кінець модифікації
 ```
 
 ## Yaml
 
-All Yaml files contributed after 1 July, 2024 23:00:00 UTC should contain the following header:
+Усі нові Yaml-файли, додані до Wild Space, повинні містити такий заголовок
 
 ```yaml
-# New Frontiers - This file is licensed under AGPLv3
-# Copyright (c) [Year] New Frontiers Contributors
-# See AGPLv3.txt for details.
+# Wild Space - Цей файл ліцензовано на умовах AGPLv3
+# Copyright (c) [Year] Wild Space Contributors
+# Дивіться AGPLv3.txt для деталей.
 ```
 
-For any changes within MIT licensed(upstream) files, the following marker should be used at the start of the modification
+Але, для модифікації існуючих файлів, які **не були створені для Wild Space**, використовуйте наступний шаблон:
 
 ```yaml
-# New Frontiers - [Title of changes] - [Description of changes]
-# This code is licensed under AGPLv3. See LICENSE
-modifiedYaml: "Goes Here"
-# End of modified code
+# Wild Space - [Назва змін] - [Опис змін]
+# Цей код ліцензовано на умовах AGPLv3. Дивіться LICENSE
+modifiedYaml: "Тут ваш код"
+# Кінець модифікації Wild Space
 ```
 
-## Note
+## Примітка
 
-Both Space Wizards and Nyanotrasen code is licensed under MIT, and any changes made to their code should be marked as AGPLv3 with the above markers.
+Увесь код Space Wizards (Wizden) та Nyanotrasen використовують ліцензію MIT, та будь-які зміни до їхнього коду повинні бути помічені відповідно до рекомендацій вище.
