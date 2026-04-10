@@ -43,7 +43,26 @@ jobs:
     - name: Generate Watchdog Manifest
       run: |
         SHA256_HASH=$(sha256sum release/SS14.Server_linux-x64.zip | cut -d ' ' -f 1)
-        echo -n "{\"version\":1,\"builds\":{\"linux-x64\":{\"url\":\"https://github.com/${{ github.repository }}/releases/download/latest/SS14.Server_linux-x64.zip\",\"sha256\":\"$SHA256_HASH\"}},\"platforms\":{\"linux-x64\":{\"url\":\"https://github.com/${{ github.repository }}/releases/download/latest/SS14.Server_linux-x64.zip\",\"sha256\":\"$SHA256_HASH\"}}}" > release/manifest.json
+        BUILD_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+        cat > release/manifest.json <<EOF
+        {
+          "builds": {
+            "1.0.0": {
+              "time": "$BUILD_TIME",
+              "client": {
+                "url": "https://github.com/${{ github.repository }}/releases/download/latest/SS14.Server_linux-x64.zip",
+                "sha256": "$SHA256_HASH"
+              },
+              "server": {
+                "linux-x64": {
+                  "url": "https://github.com/${{ github.repository }}/releases/download/latest/SS14.Server_linux-x64.zip",
+                  "sha256": "$SHA256_HASH"
+                }
+              }
+            }
+          }
+        }
+        EOF
 
     - name: Package client
       run: dotnet run --project Content.Packaging client --no-wipe-release
