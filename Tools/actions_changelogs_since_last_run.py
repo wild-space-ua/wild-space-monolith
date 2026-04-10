@@ -96,6 +96,11 @@ def get_last_changelog() -> str:
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
     most_recent = get_most_recent_workflow(session, github_repository, github_run)
+
+    if most_recent is None or "head_commit" not in most_recent:
+        print("No previous successful run found. Defaulting to full changelog or empty SHA.")
+        return None
+
     last_sha = most_recent["head_commit"]["id"]
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
     last_changelog_stream = get_last_changelog_by_sha(
