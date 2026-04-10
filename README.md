@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Monolith-Station/Monolith/89d435f0d2c54c4b0e6c3b1bf4493c9c908a6ac7/Resources/Textures/_Mono/Logo/logo.png?raw=true" /></p>
+<p align="center"> <img alt="Frontier Station 14" width="300" height="300" src="https://raw.githubusercontent.com/wild-space-ua/wild-space-monolith/5ea44484506122170e6d05b105fdbbe46b1cb0ed/Resources/Textures/_WildSpace/Logo/logo.png?raw=true" /></p>
 
 Дикий Космос це форк [Monolith Station](https://github.com/Monolith-Station/Monolith) який використовує двигун [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написаний на C#.
 
