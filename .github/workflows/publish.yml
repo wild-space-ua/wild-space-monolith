@@ -67,10 +67,12 @@ jobs:
     - name: Upload to GitHub Release
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: SHA256_HASH=$(sha256sum release/SS14.Server_linux-x64.zip | cut -d ' ' -f 1)
-        files: |
-          release/SS14.Server_linux-x64.zip
-          release/manifest.json
+        tag_name: latest
+          files: |
+            release/SS14.Server_linux-x64.zip
+            release/manifest.json
+          prerelease: false
+          make_latest: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
