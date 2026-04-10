@@ -1,18 +1,18 @@
 <Document>
-# Conflict Rule 4
-## Outpost striking is not allowed.
-[bold]See the [textlink="Safe Zones rule" link="MonolithRuleRoleplayEightSafeZones"] for areas that are always protected from strikes.[/bold]
+# Правило конфліктів №4
+## Напади на аванпости заборонені.
+[bold]Дивіться [textlink="Правило безпечних зон" link="MonolithRuleRoleplayEightSafeZones"] щодо територій, які завжди захищені від нападів.[/bold]
 
-Faction outposts (e.g., [color=blue]Halcyon[/color]) are [color=red][bold]not allowed[/bold][/color] to be striked until [color=yellow]a High Command announcement[/color] allowing it has been given, or if [color=yellow]admin permission[/color] has been given.
--- For clarity, a "strike" in this context refers to any (organized or unorganized) hostile action intended to damage outposts, seize control, eliminate its occupants, or damage docked/undocked ships within a range of 256 meters that were not recently ([color=yellow][bold]2 minutes[/bold][/color]) in combat.
--- Action should be taken to avoid camping spawn areas inside the outposts if possible.
+Аванпости фракцій (наприклад, [color=blue]Halcyon[/color]) [color=red][bold]заборонено[/bold][/color] атакувати до того моменту, поки не з'явиться [color=yellow]оголошення від Вищого Командування[/color], яке це дозволяє, або не буде отримано [color=yellow]дозвіл від адміністрації[/color].
+-- Для ясності: «напад» у цьому контексті означає будь-яку (організовану чи ні) ворожу дію, спрямовану на пошкодження аванпостів, захоплення контролю, ліквідацію мешканців або пошкодження пришвартованих/непришвартованих кораблів у радіусі 256 метрів, які не перебували в бою протягом останніх ([color=yellow][bold]2 хвилин[/bold][/color]).
+-- Слід вживати заходів, щоб за можливості уникати кемперства зон спавну всередині аванпостів.
 
-Mobile bases (e.g., [color=maroon]PDV Jupiter[/color]) do [color=red][bold]not[/bold][/color] fall under these rules.
+Мобільні бази (наприклад, [color=maroon]PDV Jupiter[/color]) [color=red][bold]не[/bold][/color] підпадають під ці правила.
 
-[color=yellow]Ships are [bold]exempted[/bold] from this rule when they escape combat to their port. It is permitted to attack docked ships if they were in combat within the last two minutes, though you should [/color][color=red]minimize[/color][color=yellow] damage to the port itself.[/color]
+[color=yellow]Кораблі є [bold]винятком[/bold] із цього правила, якщо вони втікають із бою до свого порту. Дозволяється атакувати пришвартовані кораблі, якщо вони брали участь у бою протягом останніх двох хвилин, хоча ви повинні [/color][color=red]мінімізувати[/color][color=yellow] пошкодження самого порту.[/color]
 
-[color=orange]Prison breaks[/color] from detained players both in and out of the faction do [color=red][bold]not[/bold][/color] fall under these rules.
--- [color=orange]Detained players[/color] can damage where they're being held, make a path to an exit forcefully, injure others, and steal ships from outposts to escape [bold]if necessary[/bold].
--- If anyone is killed, bodies should not be intentionally hidden or made unrecoverable. [bold]You do not[/bold] have to revive anyone.
--- You should [color=red][bold]not[/bold][/color] be sabotaging an outpost. Such as cutting wires, destroying shields, generators, or gunnery consoles. Detained players may [color=red][bold]not[/bold][/color] get external help when escaping.
+[color=orange]Втеча з в'язниці[/color] затриманих гравців (як членів фракції, так і ні) [color=red][bold]не[/bold][/color] підпадає під ці правила.
+-- [color=orange]Затримані гравці[/color] можуть пошкоджувати місце свого утримання, си силою прокладати шлях до виходу, завдавати каліцтв іншим та викрадати кораблі з аванпостів для втечі, [bold]якщо це необхідно[/bold].
+-- Якщо когось убито, тіла не можна навмисно ховати або робити їх недоступними для відновлення. Ви [bold]не зобов'язані[/bold] нікого реанімувати.
+-- Вам [color=red][bold]заборонено[/bold][/color] саботувати аванпост. Наприклад: перерізати дроти, знищувати щити, генератори або консолі озброєння. Затримані гравці [color=red][bold]не можуть[/bold][/color] отримувати допомогу ззовні під час втечі.
 </Document>

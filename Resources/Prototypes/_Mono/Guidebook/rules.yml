@@ -68,6 +68,12 @@
   text: "/ServerInfo/_Mono/Guidebook/Rules/Six_Ahelp.xml"
   ruleEntry: true
 
+- type: guideEntry
+  id: WildSpaceRuleCoreSevenGeoBlock
+  name: guide-entry-wildspace-rule-core-seven-geoblock
+  text: "/ServerInfo/_Mono/Guidebook/Rules/Seven_Geoblock.xml"
+  ruleEntry: true
+
 # /Core Rules
 
 #MARK: Roleplay Rules
