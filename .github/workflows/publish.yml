@@ -71,8 +71,6 @@ jobs:
           files: |
             release/SS14.Server_linux-x64.zip
             release/manifest.json
-          prerelease: false
-          make_latest: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
