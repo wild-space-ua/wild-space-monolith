@@ -27,8 +27,12 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     {
-        private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-z0-9 '\-]");
-        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
+
+        /* Wild Space - Cyrilic support - Added support for cyrilic names
+        Цей код ліцензовано на умовах AGPLv3. Дивіться AGPLv3.txt */
+        private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-zА-ЩЬЮЯа-щьюяІіЇїЄєҐґ0-9 '\-]");
+        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\p{L})|\b(?<word>\p{L})(?=\w*$)");
+        // Кінець модифікації Wild Space
 
         public const int MaxNameLength = 32;
         public const int MaxLoadoutNameLength = 32;
@@ -584,15 +588,10 @@ namespace Content.Shared.Preferences
 
             if (configManager.GetCVar(CCVars.RestrictedNames) && Species != "IPC")
             {
-                name = Regex.Replace(name, @"[^\u0041-\u005A,\u0061-\u007A,\u00C0-\u00D6,\u00D8-\u00F6,\u00F8-\u00FF,\u0100-\u017F, -]", string.Empty);
-                /*
-                 * 0041-005A  Basic Latin: Uppercase Latin Alphabet
-                 * 0061-007A  Basic Latin: Lowercase Latin Alphabet
-                 * 00C0-00D6  Latin-1 Supplement: Letters I
-                 * 00D8-00F6  Latin-1 Supplement: Letters II
-                 * 00F8-00FF  Latin-1 Supplement: Letters III
-                 * 0100-017F  Latin Extended A: European Latin
-                 */
+                /* Wild Space - Cyrilic support - Added support for cyrilic names
+                Цей код ліцензовано на умовах AGPLv3. Дивіться AGPLv3.txt */
+                name = Regex.Replace(name, @"[^A-Za-zА-ЩЬЮЯа-щьюяІіЇїЄєҐґ0-9 \-]", string.Empty);
+                // Кінець модифікації Wild Space
             }
 
             if (configManager.GetCVar(CCVars.ICNameCase))
