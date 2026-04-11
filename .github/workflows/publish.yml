@@ -86,6 +86,7 @@ jobs:
     - name: Publish changelog (Discord)
       continue-on-error: true
       run: Tools/actions_changelogs_since_last_run.py
+      continue-on-error: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
