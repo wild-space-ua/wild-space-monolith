@@ -83,6 +83,17 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Update Latest Tag
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: latest
+        name: "Latest Manifest"
+        force_update_tag: true
+        files: |
+          release/manifest.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Publish changelog (Discord)
       continue-on-error: true
       run: Tools/actions_changelogs_since_last_run.py
