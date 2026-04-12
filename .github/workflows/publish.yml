@@ -87,9 +87,12 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         tag_name: latest
-        name: "Latest Manifest"
+        name: "Найновіша Збірка"
+        body: "Найновіша збірка Wild Space. Згенеровано GitHub Actions."
         force_update_tag: true
         files: |
+          release/SS14.Server_linux-x64.zip
+          release/SS14.Client.zip
           release/manifest.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
