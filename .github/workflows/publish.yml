@@ -57,12 +57,12 @@ jobs:
             "$VERSION": {
               "time": "$BUILD_TIME",
               "client": {
-                "url": "https://github.com/${{ github.repository }}/releases/download/$TAG_NAME/SS14.Client.zip",
+                "url": "https://github.com/${{ github.repository }}/releases/download/latest/SS14.Client.zip",
                 "sha256": "$CLIENT_SHA256"
               },
               "server": {
                 "linux-x64": {
-                  "url": "https://github.com/${{ github.repository }}/releases/download/$TAG_NAME/SS14.Server_linux-x64.zip",
+                  "url": "https://github.com/${{ github.repository }}/releases/download/latest/SS14.Server_linux-x64.zip",
                   "sha256": "$SERVER_SHA256"
                 }
               }
