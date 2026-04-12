@@ -90,6 +90,7 @@ jobs:
         name: "Найновіша Збірка"
         body: "Найновіша збірка Wild Space. Згенеровано GitHub Actions."
         force_update_tag: true
+        make_latest: true
         files: |
           release/SS14.Server_linux-x64.zip
           release/SS14.Client.zip
