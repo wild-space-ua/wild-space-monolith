@@ -1,37 +1,38 @@
 - type: dataset
   id: names_moth_last
   values:
-  - Blackwitch # Ascalapha odorata
-  - Deathshead # refers to any of the 3 Acherontia
-  - Emperor # Saturniinae
-  - Scorchedwing # Plagodis dolabraria
-  - Temnora # Temnora
-  - Usta # Usta
-  - Whitewitch # Thysania agrippina
-  - Winter # Operophtera brumata
+  # Біологічні назви та види
+  - Чорна Відьма
+  - Мертва Голова
+  - Імператор
+  - Обпалене Крило
+  - Темнора
+  - Уста
+  - Біла Відьма
+  - Зимова
 
-  # Other languages
-  - Epiolos # Ancient Greek "moth"
-  - Moeller # conceivably any Old Norse descendant of mǫlr but probably more Danish than anything. "oe" digraph for ø.
-  - Nightflitter # literal pseudo-translation of German Nachtfalter
+  # Інші мови та адаптації
+  - Епіолос
+  - Меллер
+  - Нічний Метелик
 
-  # Myth and legend
-  - Herald # belief of moths flying at night signalling the reception of a letter
-  - Leander # Greek figure associated with Hero, and similar sounding to Oleander hawk-moth
-  - Mothman # split between being a myth reference and actual possible surname given the actual Goodman, Hoffman, Newman, Coleman, etc.
+  # Міфи та легенди
+  - Вісник
+  - Леандр
+  - Мотмен
 
-  # Fun names
-  - Cometrider
-  - Eventide
-  - Firefly
-  - Firebrush
-  - Flamecoat
-  - Lightweaver
-  - Moondancer
-  - Nightwish
-  - Nighteyes
-  - Owlbane
-  - Silktongue
-  - Sparkdrawn
-  - Stargazer
-  - Starseeker
+  # Поетичні та вигадані імена
+  - Кометохід
+  - Вечірня Зоря
+  - Світляк
+  - Вогнепензель
+  - Полум’яношуб
+  - Ткач Світла
+  - Місячний Танцюрист
+  - Нічне Бажання
+  - Очі Ночі
+  - Совогуб
+  - Шовкомов
+  - Потягнутий Іскрою
+  - Зіркогляд
+  - Шукач Зірок

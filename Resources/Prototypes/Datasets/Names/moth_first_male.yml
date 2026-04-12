@@ -1,50 +1,51 @@
 - type: dataset
   id: names_moth_first_male
   values:
-  - Agrius # Agrius
-  - Atlas # Attacus atlas
-  - Attacus # Attacus
-  - Caesar # Attacus caesar
-  - Hercules # Coscinocera hercules
-  - Rannoch # Itame brunneata, "Rannoch Looper"
-  - Socrates # Acosmeryx socrates
-  - Solus # Saturniidae solus
+  # Біологічні назви та види
+  - Агріус
+  - Атлас
+  - Аттакус
+  - Цезар
+  - Геркулес
+  - Раннох
+  - Сократ
+  - Солус
 
-  # Other languages
-  - Ash # Hebrew עש "moth"
-  - Azar # Persian "fire"
-  - Kaiser # German "emperor" descendant of the Latin caesar
-  - Rex # Latin "king"
-  - Rajas # Sanskrit "darkness" or "dust"
-  - Skoros # Greek "clothes moth"
+  # Інші мови та значення
+  - Еш
+  - Азар
+  - Кайзер
+  - Рекс
+  - Раджас
+  - Скорос
 
-  # Myth and legend
-  - Bladud # legendary king of the Britons who crafted wings and died in his attempt at flight
-  - Daedalus # father of Icarus
-  - Erebus # Greek primordial deity of darkness
-  - Icarus # the classic
-  - Jatayu # Hindu figure, similar to Icarus
-  - Koho # Japanese reading of 夸父（こほ）
-  - Kuafu # Chinese giant 夸父, similar to Icarus
-  - Lucifer # more commonly-known fall-from-heaven figure
-  - Merlin # Arthurian wizard
-  - Phaethon # another Greek figure, similar to Icarus
-  - Wolford # rendering of Bladud from the Welsh blaidd "wolf" + iudd "lord"
+  # Міфи та легенди
+  - Бладуд
+  - Дедал
+  - Ереб
+  - Ікар
+  - Джатаю
+  - Кохо
+  - Куафу
+  - Люцифер
+  - Мерлін
+  - Фаетон
+  - Волфорд
 
-  # Fun names
-  - Ace
-  - Altair
-  - Dusty
-  - Gambit
-  - Hawk
-  - Mothew
-  - Timothy
+  # Кумедні та специфічні імена
+  - Ейс
+  - Альтаїр
+  - Дасті
+  - Гамбіт
+  - Гок
+  - Мотіу
+  - Тімоті
 
-  # Common names, filler
-  - Asher
-  - Isaac
-  - Roman
-  - Samuel
-  - Sebastian
-  - Silas
-  - Simon
+  # Загальні імена
+  - Ашер
+  - Ісаак
+  - Роман
+  - Самуїл
+  - Себастьян
+  - Сайлас
+  - Саймон

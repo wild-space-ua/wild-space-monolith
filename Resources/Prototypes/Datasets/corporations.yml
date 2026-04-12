@@ -1,12 +1,12 @@
 - type: dataset
-  id: TraitorCorporations
+  id: TraitorCorporations_UA
   values:
-  - "CyberSun Industries"
-  - "Gorlex Marauders"
+  - "КіберСан Індастріес"
+  - "Мародери Горлекс"
   - "MI13"
-  - "Tiger Cooperative"
-  - "S.E.L.F."
-  - "Animal Rights Consortium"
-  - "Donk Corporation"
-  - "Waffle Corporation"
-  - "Interdyne Pharmaceutics"
+  - "Кооператив Тигр"
+  - "С.А.М.И.Й."
+  - "Консорціум захисту тварин"
+  - "Корпорація Donk"
+  - "Корпорація Waffle"
+  - "Фармацевтика Інтердайн"

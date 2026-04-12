@@ -1,30 +1,30 @@
 - type: dataset
   id: skeletonNamesFirst
   values:
-  - Sternum
-  - Ribs
-  - Vertebrae
-  - Sacrum
-  - Mandible
-  - Clavicle
-  - Scapula
-  - Humerus
-  - Radius
-  - Ulna
-  - Carpals
-  - Phalanges
-  - Pelvis
-  - Femur
-  - Tibia
-  - Fibula
-  - Marrow
-  - Tarsals
-  - Patella
-  - Tailbone
-  - Boner
-  - Rib
-  - Hyoid
-  - Coccyx
-  - Tarsus
-  - Lacrimal
-  - Bone
+  - Грудина
+  - Ребра
+  - Хребець
+  - Крижі
+  - Щелепа
+  - Ключиця
+  - Лопатка
+  - Плече
+  - Промінь
+  - Лікоть
+  - Зап'ястя
+  - Фаланги
+  - Таз
+  - Стегно
+  - Гомілка
+  - Малогомілка
+  - Кістковий мозок
+  - Заплесно
+  - Наколінок
+  - Куприк
+  - Бонер
+  - Ребро
+  - Під'язикова кістка
+  - Копчик
+  - Тарсус
+  - Сльозова кістка
+  - Кістка
