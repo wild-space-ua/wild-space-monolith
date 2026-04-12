@@ -4,7 +4,7 @@
 
 ## Links
 
-//<!-- [Discord](https://discord.gg/mxY4h2JuUw)--> | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
+// <!-- [Discord](https://discord.gg/mxY4h2JuUw)--> [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
 ## Долучитися до розробки
 
