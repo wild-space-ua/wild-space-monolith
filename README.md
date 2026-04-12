@@ -2,9 +2,9 @@
 
 Дикий Космос це форк [Monolith Station](https://github.com/Monolith-Station/Monolith) який використовує двигун [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написаний на C#.
 
-<!-- ## Links
+## Links
 
-//[Discord](https://discord.gg/mxY4h2JuUw) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) -->
+//<!-- [Discord](https://discord.gg/mxY4h2JuUw)--> | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
 ## Долучитися до розробки
 
