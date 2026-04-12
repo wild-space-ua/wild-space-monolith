@@ -1,4 +1,3 @@
-# only used roundstart, names can be changed after
 - type: localizedDataset
   id: NFNamesBorg
   values:
@@ -9,65 +8,65 @@
 - type: dataset
   id: NFNamesBorgUnlocalized
   values:
-  - Bob
-  - Joe
-  - Beep
-  - Beep II
-  - Boombox
-  - Tour Guide-otron
-  - Taffy
-  - Boop
-  - Boop II
-  - Buzz
-  - Buzz II
-  - Toaster
-  - Head of Robots
+  - Боб
+  - Джо
+  - Біп
+  - Біп II
+  - Бумбокс
+  - Тур-Гід-отрон
+  - Теффі
+  - Буп
+  - Буп II
+  - Базз
+  - Базз II
+  - Тостер
+  - Голова Роботів
   - EVA 1
-  - Mr. Robist
-  - Junk
+  - Містер Робіст
+  - Брухт
   - R2-PO
   - C-3-D2
-  - Robby
-  - Robobot
-  - Fixer
-  - Sonny
-  - Autobot
-  - Whitley
-  - Keller
-  - Xenos
-  - Echo
-  - Vector
-  - B-0-RG
-  - Megabyte
-  - Butt-Bot
-  - Deceptiborg
-  - Le Borgue
-  - Beepers
-  - Cute-Bot
-  - Makeshifter
-  - Twin
-  - S.A.U.L
-  - Honker
-  - Clanker 
-  - Is-The-Robot
-  - 9 of 7
-  - Dankbot
-  - CALC
-  - Putters
-  - Roombot
-  - Brobot
-  - Pliance
-  - Cycle
-  - Hertz
-  - Intellibot
-  - Crambot
-  - Tooly
-  - Happy
-  - Fiddler
-  - Jeeves
-  - Hudson
-  - Jarvis
-  - Jenkins
-  - Ms. Tinker
-  - Gonk
-  - Roberto
+  - Роббі
+  - Робобот
+  - Фіксер
+  - Сонні
+  - Автобот
+  - Вітлі
+  - Келлер
+  - Ксенос
+  - Ехо
+  - Вектор
+  - Б-0-РГ
+  - Мегабайт
+  - Дупобот
+  - Десептиборг
+  - Ле Борг
+  - Біперс
+  - Мілаха-Бот
+  - Мейкшифтер
+  - Твін
+  - С.О.У.Л.
+  - Хонкер
+  - Кланкер
+  - Це-Робот
+  - 9 з 7
+  - Денкбот
+  - КАЛЬЦ
+  - Паттерс
+  - Румбот
+  - Бробот
+  - Плайанс
+  - Сайкл
+  - Герц
+  - Інтелібот
+  - Крамбот
+  - Тулі
+  - Хеппі
+  - Фіддлер
+  - Дживс
+  - Хадсон
+  - Джарвіс
+  - Дженкінс
+  - Пані Тінкер
+  - Гонк
+  - Роберто

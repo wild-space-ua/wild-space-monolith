@@ -1,8 +1,8 @@
 - type: dataset
   id: DroneTitle
   values:
-  - UNIT
-  - INSTANCE
+  - ЮНІТ
+  - БОТ
 
 - type: dataset
   id: DroneHex
