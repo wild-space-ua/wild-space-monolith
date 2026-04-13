@@ -19803,3 +19803,10 @@ Entries:
   id: 2185
   time: '2026-04-13T17:27:35.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3576
+- author: Onezero0
+  changes:
+    - type: Add
+      message: Added the Large APC for mappers.
+  id: 2186
+  time: '2026-04-13T17:42:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3484
