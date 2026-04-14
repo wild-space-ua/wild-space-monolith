@@ -1,4 +1,4 @@
-﻿engraving-verb-engrave = Engrave
+engraving-verb-engrave = Engrave
 engraving-popup-ui-message = Description
 
 # Frontier: generic engraving messages

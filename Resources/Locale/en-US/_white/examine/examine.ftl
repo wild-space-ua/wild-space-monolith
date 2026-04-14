@@ -1,4 +1,4 @@
-﻿# Poggers examine system
+# Poggers examine system
 
 examine-name = It's [bold]{$name}[/bold]!
 examine-can-see = Looking at {OBJECT($ent)}, you can see:

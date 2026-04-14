@@ -1,4 +1,4 @@
-﻿shuttle-records-console-window-title = Shuttle Records Computer
+shuttle-records-console-window-title = Shuttle Records Computer
 shuttle-records-copy-deed-button = Copy Deed to ID Card
 shuttle-records-shuttle-name-label = Shuttle Name: {$name}
 shuttle-records-shuttle-owner-label = Purchased by: {$owner}

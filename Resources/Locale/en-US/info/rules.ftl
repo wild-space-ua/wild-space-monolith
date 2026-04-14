@@ -1,4 +1,4 @@
-﻿# Rules
+# Rules
 
 ui-rules-header = Official Monolith Server Rules
 ui-rules-header-rp = Official Monolith Roleplay Server Rules

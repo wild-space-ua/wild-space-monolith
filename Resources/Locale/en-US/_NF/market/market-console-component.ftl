@@ -1,4 +1,4 @@
-﻿# Market console computer
+# Market console computer
 market-console-menu-title = Market access terminal
 market-item-title = Item
 market-all = All
